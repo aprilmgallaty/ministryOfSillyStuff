@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+#transForm {
+	background-color:#bae7b7;
+	width:300px;
+	padding:20px;
+	margin: 0 auto;	
+	border: 6px solid #66bd57;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	position:relative;
+        margin-bottom: 25px;
+}
+
+#transForm h3 {
+	margin-bottom:15px;
+}
+
+#transForm input, 
+#transForm select, 
+#transForm textarea, 
+#transForm label {
+	margin-bottom:2px;
+}
+
+#transForm input, 
+#transForm select, 
+#transForm textarea {
+	width:280px;
+	border: 1px solid #66bd57;
+	margin-bottom:20px;
+	padding:4px;
+}
+
+#transForm input:focus, 
+#transForm select:focus, 
+#transForm textarea:focus {
+	border: 1px solid #66bd57;
+	background-color: #bae7b7;
+}
+
+#transForm textarea {
+	height:150px;
+	resize: none;
+}
+
+#transForm label {
+	display:block;
+}
+
+#transForm .req {
+	font-weight:bold;
+	color:#F00;	
+}
+
+#transForm #submit-button {
+	width: 100px;
+	background-color:#333;
+	color:#FFF;
+	border:none;
+	display:block;
+	margin-bottom:0px;
+	margin-right:6px;
+	background-color:#66bd57;
+	-moz-border-radius:8px;
+}
+
+#transForm #submit-button:hover {
+	background-color: #bae7b7;
+}
+
+#transForm #submit-button:active {
+	position:relative;
+	top:1px;
+}

@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* CSS Document */
+
+footer {
+    /* Spans 49 columns. */
+    float:left;
+    width:1024px;
+    margin-right:0;
+}
+
+
+/* Begin descendants of footer */
+#copyRight {
+    /* Spans 9 columns. */
+    float:left;
+    width:550px;
+    margin: 19px 0 0 25px;
+}
+
+#designBy {
+    /* Spans 3 columns. */
+    float:left;
+    padding-left: 54px;
+}
+
+#designbyText {
+    /* Spans 6 columns. */
+    float:left;
+    margin: 18px 5px; 0 0;
+}
+
+#designbyText a{
+    /* Spans 6 columns. */
+    text-decoration:  none;
+    color: #66BD57;
+    font-weight: 700;
+}
+/* End descendants of footer */
+
+/* End descendants of container */
+

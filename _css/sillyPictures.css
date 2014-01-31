@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#leftColPictures{
+    width: 440px;
+    height: 100%;
+    float: left;
+    margin: 25px 10px;
+    padding: 10px 20px;
+}
+
+.thumbs img {
+	background-image: url('../_img/loader.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.thumbs li{
+	display: inline-block;
+	text-indent: 0;
+	margin: 3px;
+}
+
+#controls a, .pagination a{
+	padding: 5px;
+}
+
+.advance-link img{
+	margin-top: -14px;
+}

@@ -1,0 +1,179 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Semantic CSS applies Blueprint CSS positioning to your custom IDs.
+   File saved as utf-8 encoding.
+
+   number of columns:49
+   column width:16
+   gutter width:5
+   total width:1024
+   row height:18 px 
+*/
+
+#container {
+    /* This is a Blueprint Container. Spans 49 columns. */
+    width:1024px;
+    margin:0 auto;
+}
+
+
+/* Begin descendants of container */
+#social {
+    /* Spans 49 columns. */
+    float:right;
+    width: 100%;
+    margin-right:0;
+    background-color: #000;
+    padding: 10px 0;
+}
+
+
+/* Begin descendants of social */
+#linkedIn {
+    /* Spans 2 columns. */
+    float:right;
+    width:37px;
+    margin-right:0;
+}
+
+#faceBook {
+    /* Spans 2 columns. */
+    float:right;
+    width:37px;
+    margin-right:0;
+}
+
+#twitter {
+    /* Spans 2 columns. */
+    float:right;
+    width:37px;
+    margin-right:0;
+}
+
+#stumbleUpon {
+    /* Spans 2 columns. */
+    float:right;
+    width:37px;
+    margin-right:0;
+}
+
+#youTube {
+    /* Spans 2 columns. */
+    float:right;
+    width:37px;
+    margin-right:0;
+}
+
+#pinterest {
+    /* Spans 2 columns. */
+    float:right;
+    width:37px;
+    margin-right:0;
+}
+/* End descendants of social */
+
+
+#header {
+    /* Spans 49 columns. */
+    background-image: url(../_img/bannerImages/background100x100.png);
+    float:left;
+    width:100%;
+    margin-right:0;
+}
+
+
+/* Begin descendants of header */
+#banner {
+    /* Spans 43 columns. */
+    background-color: rgba(102, 189, 87, 0.75);
+    width:900px;
+    height: 135px;
+    margin: 20px auto;
+    -webkit-box-shadow: 6px 6px 17px rgba(165, 183, 162, 0.75);
+    -moz-box-shadow:    6px 6px 17px rgba(165, 183, 162, 0.75);
+    box-shadow:         6px 6px 17px rgba(165, 183, 162, 0.75);
+}
+
+
+/* Begin descendants of banner */
+#logo {
+    /* Spans 4 columns. */
+    float:left;
+    margin: 5px 0 0 10px;
+}
+
+#siteTitle {
+    /* Spans 34 columns. */
+    float:left;
+    width:500px;
+    padding: 30px 0 0 25px;
+}
+
+#homeBannerImg{
+    float: right;
+    margin-top: 66px;
+}
+/* End descendants of banner */
+
+/* End descendants of header */
+
+
+#nav {
+    /* Spans 49 columns. */
+    float:left;
+    width:1024px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+nav a{
+    outline: none;
+    text-decoration: none;
+    color: #000;
+}
+
+
+nav a:link{
+	color: #000;
+	padding: 5px;	
+}
+
+nav a:hover{
+	color: #fff;
+	background-color: #66BD57;
+}
+
+/* Begin descendants of nav */
+#home {
+    /* Spans 7 columns. */
+    float:left;
+    padding-left: 40px;
+}
+
+#mosw {
+    /* Spans 7 columns. */
+    float:left;
+    padding-left: 90px;
+}
+
+#sillyTrans {
+    /* Spans 7 columns. */
+    float:left;
+    padding-left: 90px;
+}
+
+#sillyPics {
+    /* Spans 7 columns. */
+    float:left;
+    padding-left: 90px;
+}
+
+#gallatyHome {
+    /* Spans 7 columns. */
+    float:left;
+    padding-left: 90px;
+
+}
+/* End descendants of nav */

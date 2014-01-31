@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+#indexPage {
+    /* Spans 49 columns. */
+    float:left;
+    width:1024px;
+    margin-right:0;
+}
+
+
+/* Begin descendants of indexPage */
+#holder {
+    /* Spans 43 columns. */
+    float:left;
+    width:898px;
+    margin-right:0;
+}
+
+
+/* Begin descendants of holder */
+#pageTitle {
+    /* Spans 16 columns. */
+    width:900;
+    margin: 15px 0 15px 62px;
+}
+
+#content {
+    /* Spans 37 columns. */
+    clear: both;
+    width:900px;
+    margin-left: 62px;
+}
+
+#content h4{
+   line-height: 22px;
+   margin-bottom: 10px;
+}
+
+#content ul{
+    text-indent: 25px;
+    margin-bottom: 15px;
+}
+
+#content ul li{
+    list-style: disc;
+    list-style-position: inside;
+    margin: 5px 0 0 5px;
+}
+/* End descendants of holder */
+
+/* End descendants of indexPage */
